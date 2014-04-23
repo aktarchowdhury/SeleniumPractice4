@@ -1,0 +1,12 @@
+package com.aktar.selenium;
+
+import org.junit.Test;
+
+public class TestClassOpen3 extends WebOpenClass {
+@Test
+public void TestOpens4(){
+	selenium.click("headerLogoLink");
+	selenium.clickAt("regional-pricing-Wrapper", "AZ");
+	selenium.clickAt("cmlink_ProdDisp","cmlink_AOStart");
+}
+}
