@@ -1,0 +1,11 @@
+package com.aktar.seleni;
+
+import org.junit.Test;
+
+public class TestStart extends StartTest{
+@Test
+public void Homepage(){
+	key.click("menu_Pharmacy");
+}
+
+}
