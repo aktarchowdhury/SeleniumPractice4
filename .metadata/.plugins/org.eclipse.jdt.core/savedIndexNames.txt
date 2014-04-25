@@ -7,7 +7,6 @@ INDEX VERSION 1.126+C:\Users\aktar\Documents\SeleniumPractice4\.metadata\.plugin
 1241710392.index
 2503134553.index
 648820999.index
-4264171314.index
 735681076.index
 2996714229.index
 3537725308.index
