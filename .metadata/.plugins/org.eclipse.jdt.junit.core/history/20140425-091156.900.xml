@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CreateAcctt" project="SeleniumWeb3" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.aktar.web.CreateAcctt" time="9.285">
+    <testcase name="Registration" classname="com.aktar.web.CreateAcctt" time="9.285"/>
+  </testsuite>
+</testrun>

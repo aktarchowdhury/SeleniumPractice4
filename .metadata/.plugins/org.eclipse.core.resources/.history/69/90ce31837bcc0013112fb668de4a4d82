@@ -1,0 +1,12 @@
+package com.aktar.web;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+public class CreateAcctt extends OPenClass1 {
+@Test
+public void Registration(){
+	driver.findElement(By.id("signInOverlay")).click();
+	
+}
+}
