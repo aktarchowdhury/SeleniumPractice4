@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Testing1" project="SeleniumPrac" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.aktar.selenium.Testing1" time="14.185">
-    <testcase name="TestContinue" classname="com.aktar.selenium.Testing1" time="14.185"/>
-  </testsuite>
-</testrun>
