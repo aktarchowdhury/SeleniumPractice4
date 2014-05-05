@@ -1,0 +1,22 @@
+package com.aktar.selenium;
+
+import org.junit.After;
+import org.junit.Before;
+
+import com.thoughtworks.selenium.DefaultSelenium;
+
+public class OpenClass {
+DefaultSelenium selenium=new DefaultSelenium("localhost",4444,"firefox","https://www.chase.com/");
+@Before
+public void OpenHomePage(){
+	selenium.start();
+	selenium.open("/");
+	selenium.windowMaximize();
+	selenium.setSpeed("4000");
+}
+@After
+public void TestClose(){
+	//selenium.close();
+	//selenium.stop();
+}
+}

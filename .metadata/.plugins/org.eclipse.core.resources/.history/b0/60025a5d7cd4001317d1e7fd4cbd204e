@@ -1,0 +1,21 @@
+package com.aktar.selenium;
+
+import org.junit.Test;
+
+public class TestStart3 extends OpenClass {
+@Test
+public void HomePage2(){
+	selenium.click("primaryMenu0");
+	selenium.click("menuItem0_0_2");
+	selenium.click("menuItem0_0_4");
+	//selenium.click("menuItem0_0_5");
+	selenium.click("menuItem0_0_6" );
+	selenium.click("menuItem0_0_7");
+	selenium.click("menuItem0_0_8");
+	selenium.click("menuItem0_0_9");
+	selenium.click("menuItem0_0_10");
+	//selenium.click("menuItem0_0_11");
+	selenium.click("menuItem0_0_12");
+	selenium.click("menuItem0_0_13");
+}
+}

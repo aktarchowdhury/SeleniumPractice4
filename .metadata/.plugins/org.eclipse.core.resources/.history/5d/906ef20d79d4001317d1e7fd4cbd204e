@@ -1,0 +1,13 @@
+package com.aktar.selenium;
+
+import org.junit.Test;
+
+public class TestStart2 extends OpenClass{
+@Test
+public void HomePage1(){
+	selenium.click("primaryMenu0");
+	selenium.click("menuItem0_0_1");
+	selenium.click("menuItem0_0_1_0");
+	selenium.clickAt("zip_code","11223");
+}
+}

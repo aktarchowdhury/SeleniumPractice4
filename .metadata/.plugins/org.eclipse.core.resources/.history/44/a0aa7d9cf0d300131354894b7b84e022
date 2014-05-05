@@ -1,0 +1,10 @@
+package com.aktar.test;
+
+import org.junit.Test;
+
+public class SignOnPage extends WebOpen {
+@Test
+public void SignOn1(){
+	selene.click("banking");
+}
+}

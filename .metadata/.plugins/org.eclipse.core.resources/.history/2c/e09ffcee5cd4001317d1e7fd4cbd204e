@@ -1,0 +1,11 @@
+package com.aktar.test;
+
+import org.junit.Test;
+
+public class SignOnPage5 extends WebOpen{
+@Test
+public void SignOn6(){
+	selene.clickAt("cmlink_ProdDisp", "Basic Checking");
+	
+}
+}

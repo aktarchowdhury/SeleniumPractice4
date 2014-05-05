@@ -1,0 +1,19 @@
+package com.aktar.test;
+
+import org.junit.Test;
+
+public class SignOnPage extends WebOpen {
+@Test
+public void SignOn1(){
+	selene.click("headerLogoLink");
+	selene.click("banking");
+	selene.click("creditcards");
+	selene.click("lending");
+	selene.click("investing");
+	selene.click("business");
+	selene.click("rewards");
+	selene.click("services");
+	selene.click("citigold");
+	selene.clickAt("signOnTool", "user_signOn");
+}
+}

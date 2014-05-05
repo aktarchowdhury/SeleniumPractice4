@@ -1,0 +1,12 @@
+package com.aktar.test;
+
+import org.junit.Test;
+
+public class SignOnPage2 extends WebOpen {
+@Test
+public void SignOn3(){
+	selene.clickAt("aJSOSIGNON_t713_s200", "register");
+	selene.click("SignonForm");
+	
+}
+}
